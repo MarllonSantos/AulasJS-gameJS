@@ -28,7 +28,7 @@ function chutar() {
   }
   let numeroChute = document.querySelector("input").value;
   console.log(`Numero chutado: ${numeroChute}`);
-  let mensagem = numeroChute > numeroSecreto ? 'É menor!' : 'É maior!';
+  let mensagem = numeroChute > numeroSecreto ? 'O número é menor! <' : 'O número é maior! >';
   atualizarTexto('h1', mensagem);
 
   if (numeroChute == "") {

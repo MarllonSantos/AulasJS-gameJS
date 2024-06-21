@@ -10,10 +10,7 @@ body{
 }
 
 .content{
-    background-image: url(/img/Default_futuristic_cat_on_city_to_background_1.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(33, 34, 66);
     display: flex;
     border-radius: 10px;
     padding: 10px;
