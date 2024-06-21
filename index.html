@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      Seja bem vindo(a)!
+      <div class="game">
+        <h1 class="chute">-</h1>
+        <input type="number" />
+        <button onclick="chutar()">Responder!</button>
+        <button onclick="novoNumero()" class="ajuda">Novo Jogo</button>
+        <div id="alertSucess">
+          <h3><strong>Parabéns!</strong> você acertou!</h3>
+
+        </div>
+        <div id="alertErro">
+          <h3><strong>Ops!</strong> você errou!</h3>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

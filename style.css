@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+body{
+    background-color: black;
+    font-family: "Playwrite NG Modern", cursive;
+    color: white;
+    font-size: 18px;
+    font-optical-sizing: auto;
+}
+
+.content{
+    background-image: url(/img/Default_futuristic_cat_on_city_to_background_1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+}
+.gameavatar{
+    align-items: end;
+    display: flex;
+    float: center;
+    width: 50%;
+}
+
+.chute{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+input{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 100%;
+    margin: 10px;
+}
+
+button{
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 4, 54); 
+    color: white;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgb(192, 24, 57); 
+    color: rgb(221, 221, 221);
+}
+
+.ajuda{
+    background-color: rgb(61, 59, 60); 
+    color: white;
+}
+.ajuda:hover{
+    background-color: rgb(94, 94, 94); 
+    color: rgb(221, 221, 221);
+}
+
+.gameavatar p{
+    font-size: 84px;
+    color: white;
+}
+
+.gameavatar span{
+    color: rgb(255, 4, 54); 
+}
+
+#alertSucess{
+    visibility: hidden;
+    width: 100%;
+    align-items: center;
+    display: block;
+    background-color: rgb(216, 255, 211);
+    border: 1px solid rgb(0, 80, 0);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(0, 161, 0);
+}
+
+#alertErro{
+    visibility: hidden;
+    width: 100%;
+    align-items: center;
+    display: block;
+    background-color: rgb(255, 211, 211);
+    border: 1px solid rgb(194, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(233, 0, 0);
+}
